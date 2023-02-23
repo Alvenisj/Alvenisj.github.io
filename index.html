@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--INDEX PRINCIPAL DE LA PÁGINA--> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Portafolio</title>
+  </head>
+  
+<body class="dark">
+
+  <!--Cabecera de la página--> 
+  <header class="header">
+      <!--Contenedor del icono dark mode y el texto-->
+           <div class="switches">
+             <div id="toggle-theme" class="toggle-theme">
+               <img id="toggle-theme__icon" class="toggle-theme__icon" src="/icons/moon.svg" alt="icon theme">
+               <p id="toggle-theme__text" class="toggle-theme__text">Dark Mode</p>
+             </div>
+           </div>
+
+          
+
+        <!--Contenedor de los colores-->
+        <div id="toggle-colors" class="colors">
+          <div data-color="hsl(184, 89%, 51%)" class="colors__item colors__item--blue"></div>
+          <div data-color="hsl(258, 69%, 47%)" class="colors__item colors__item--purple"></div>
+          <div data-color="hsl(24, 97%, 38%)" class="colors__item colors__item--orange"></div>
+          <div data-color="hsl(152, 91%, 42%)" class="colors__item colors__item--green"></div>
+        </div>
+
+</header>
+
+<!--Cuerpo principal de la página web--> 
+<main class="main">
+
+  <section class="column colum--left">
+      <!--PROFILE CARD-->
+    <article class="card card--profile">
+
+           <div class="card__image-container-perfil">
+             <img src="/images/img-perfill.jpeg" class="img" alt="">
+           </div>
+
+           <div class="card__header">
+             <h2 class="card__title no-margin">Hello! My name is:  Alvenis Becerra</h2>
+             <p class="card__subtitle">Full Stack Developer - Systems Engineer -  </p>
+           </div>
+
+           
+
+           <div class="card__body">
+              <div class="card__link">
+                <i class="fas fa-envelope icon"></i>
+                <a href="mailto:Alvenisj@gmail.com">Alvenisj@gmail.com</a>
+             </div>
+          <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:3232914082">+57 323-2914082</a>
+          </div>
+
+            <p class="card__text" data-section="profile" data-value="description">
+              Systems engineer with more than 7 years of experience in the professional area, carrying out different digital transformation projects that have resulted in successful developments. Extensive knowledge in creating web pages and web applications.
+              Full-time experience working with technologies such as: 
+              - NodeJs(React, Vue) API development and integrations 
+              - Server settings and deployments, I constantly stay up to date with the most recent updates. 
+              
+              I provide high-quality code that is safe and easy to maintain.
+            </p>
+
+            <div class="card__body">
+              <a href="#" class="hero__cta">Contact me</a>
+             </div>
+
+                <div class="fotoPerfil">
+                          
+                        <img src="/images/img-portada.jpg" alt="Man on a bike">
+                 </div>
+    
+    </article>
+   
+    <article class="card card--experience">
+              
+           <h2 class="card__title">Experiences</h2>
+
+             <div class="experience">
+                <img src="/images/img-1.jpg" alt="logo" class="experience__image">
+                  <div class="experience__info">
+                          <p class="experience__time" data-section="experience" data-value="firs-job-dates">
+                              January 2015 - January 2018 - Müröntö: Centro de Innovacion para el Desarrollo
+                         </p>
+                         <h3 class="experience__job" data-section="experience" data-value= "firs-job-title">Systems Engineer Junior</h3>
+                         <p class="experience__description" data-section="experience" data-value= "firs-job-description">My main task was to correct the programming errors of the systems created by the department of this company and report the errors to my superiors.</p>
+                  </div>
+              </div>
+
+              <div class="experience">
+                <img src="/images/img-2.jpg" alt="logo" class="experience__image">
+                  <div class="experience__info">
+                          <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                              June 2018 - June 2019 Fasmee - MPPEE
+                         </p>
+                         <h3 class="experience__job" data-section="experience" data-value="second-job-title">Full Stack Developer</h3>
+                         <p class="experience__description">In this company I was able to take charge of programming and direct design of different systems related to the world of Web Programming.</p>
+                  </div>
+              </div>
+
+           <div class="experience">
+            <img src="/images/img-3.jpg" alt="logo" class="experience__image">
+                <div class="experience__info">
+                       <p class="experience__time" data-section="experience" data-value="last-job-dates">
+                             June 2019 - Current
+                      </p>
+                      <h3 class="experience__job" data-section="experience" data-value="last-job-title">Freelance Full Stack Developer</h3>
+                      <p class="experience__description" data-section="experience" data-value="last-job-description">Full-time experience working with technologies such as: 
+              - NodeJs(React, Vue) API development and integrations 
+              - Server settings and deployments, I constantly stay up to date with the most recent updates.
+              - Developer MERN</p>
+               </div>
+          </div>
+
+          <article class="card card--hobbies">
+    
+                    <h2 class="card__title">Hobbies</h2>
+  
+                     <div class="card__image-container">
+                            <img src="/images/img-5.jpg" alt="Man on a bike">
+                     </div>
+
+                     <h3 class="hobbie__title">Biking</h3>
+                     <p class="card__text">
+                           Bicycling is a way for people to get outside and get moving after a day of being indoors at work or school. As a hobby, it promotes good health and physical fitness. In addition, bicycling is relatively inexpensive when compared to other activities. To get the most enjoyment out of bicycling, it helps to start out correctly as a beginner. This means learning the basics about bicycling and bike care, which will build confidence while riding and help prevent injury to oneself and others.
+                     </p>
+
+          </article>
+
+
+           <article class="card card--hobbies">
+
+                   <div class="card__image-container">
+                     <img src="/images/img-4.jpg" alt="Caminar">
+                   </div>
+                   <h3 class="hobbie__title">Hiking/Nature Walks</h3>
+                   <p class="card__text">
+               Hiking is a great way to get out there and see some really cool places. 
+                   </p>
+
+           </article>
+
+    </article>
+
+</section>
+
+<!--SEGUNDA SECCIÓN DEL LADO DERECHO DE LA PÁGINA-->
+<section class="column column--right">
+    
+  <article class="card">
+
+    <h2 class="card__title">Front-End</h2>
+    <small>years of experience</small>
+    <div class="skills"></div>
+
+    <div class="skills__header">
+        <span class="skills__start-level">0</span>   
+        <span class="skills__start-level">7</span>
+    </div>
+
+    <div class="skills">
+
+             <div class="skills__item">
+               <p class="skills__tech">Javascript</p>
+               <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+              <p class="skills__tech">React</p>
+              <div class="skills__bar skills__bar--70"></div>
+          </div>
+
+           <div class="skills__item">
+              <p class="skills__tech">Vue</p>
+              <div class="skills__bar skills__bar--20"></div>
+           </div>
+
+
+           <div class="skills__item">
+            <p class="skills__tech">Css, Sass</p>
+            <div class="skills__bar skills__bar--90"></div>
+         </div>
+
+
+          <div class="skills__item">
+             <p class="skills__tech">Bootstrap</p>
+             <div class="skills__bar skills__bar--60"></div>
+         </div>
+         <div class="skills__item">
+           <p class="skills__tech">HTML5</p>
+           <div class="skills__bar skills__bar--90"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech">EJS, HBS</p>
+          <div class="skills__bar skills__bar--90"></div>
+       </div>
+    </div>
+
+</article>
+
+
+    <article class="card">
+
+      <h2 class="card__title">Back-End</h2>
+      <small>years of experience</small>
+      <div class="skills"></div>
+
+      <div class="skills__header">
+          <span class="skills__start-level">0</span>   
+          <span class="skills__start-level">7</span>
+      </div>
+
+      <div class="skills">
+
+            <div class="skills__item">
+                <p class="skills__tech">Node JS</p>
+                <div class="skills__bar skills__bar--80"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Api Rest</p>
+              <div class="skills__bar skills__bar--40"></div>
+           </div>
+
+             <div class="skills__item">
+                <p class="skills__tech">C++</p>
+                <div class="skills__bar skills__bar--40"></div>
+             </div>
+
+            <div class="skills__item">
+               <p class="skills__tech">SQL</p>
+               <div class="skills__bar skills__bar--90"></div>
+           </div>
+           <div class="skills__item">
+               <p class="skills__tech">MongoDb</p>
+               <div class="skills__bar skills__bar--60"></div>
+           </div>
+      </div>
+
+</article>
+
+<article class="card">
+
+  <h2 class="card__title">skills and knowledge</h2>
+  <small>additional skills</small>
+  <div class="skills"></div>
+
+  <div class="skills">
+
+        <div class="skills__item">
+            <p class="skills__tech">Extensive problem solving ability</p>
+            <div class="skills__bar skills__bar--90"></div>
+        </div>
+
+         <div class="skills__item">
+            <p class="skills__tech">Methodical and creative ability.</p>
+            <div class="skills__bar skills__bar--80"></div>
+         </div>
+
+         <div class="skills__item">
+          <p class="skills__tech">Knowledge of computer systems</p>
+          <div class="skills__bar skills__bar--100"></div>
+       </div>
+         <div class="skills__item">
+          <p class="skills__tech">team collaboration</p>
+          <div class="skills__bar skills__bar--100"></div>
+       </div>
+
+      
+        <div class="skills__item">
+           <p class="skills__tech">English fluency</p>
+           <div class="skills__bar skills__bar--70"></div>
+       </div>
+  </div>
+
+</article>
+
+
+    <article class="card card--project">
+      
+           <div class="card__image-container">
+               <img class="card__image" src="/images/img-6.jpg" alt="Landing Page">
+           </div>
+       <div class="project">
+
+            <div class="project__tags">
+                <span class="project__tag">#MongoDb</span>
+                <span class="project__tag">#CSS</span>
+                <span class="project__tag">#Javascript</span>
+                <span class="project__tag">#Responsive</span>
+                
+            </div>
+
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+ 
+            <div class="buttons">
+                <a href="#" class="button button--primary">Demo</a>
+                <a href="#" class="button button--ghost">Code</a>
+           </div>
+
+       </div>
+
+   
+   </article>
+
+   <article class="card card--project">
+      
+  <div class="card__image-container">
+      <img class="card__image" src="/images/img-7.jpg" alt="Landing Page">
+  </div>
+<div class="project">
+
+   <div class="project__tags">
+       <span class="project__tag">#HTML</span>
+       <span class="project__tag">#ApiRest</span>
+       <span class="project__tag">#Javascript</span>
+       <span class="project__tag">#Responsive</span>
+   </div>
+
+   <h2 class="card__title">Landing Page</h2>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+
+   <div class="buttons">
+       <a href="#" class="button button--primary">Demo</a>
+       <a href="#" class="button button--ghost">Code</a>
+  </div>
+
+</div>
+
+
+   </article>
+
+   <article class="card card--project">
+      
+  <div class="card__image-container">
+      <img class="card__image" src="/images/img-8.jpg" alt="Landing Page">
+  </div>
+<div class="project">
+
+   <div class="project__tags">
+       <span class="project__tag">#ReactJs</span>
+       <span class="project__tag">#CSS</span>
+       <span class="project__tag">#Javascript</span>
+       <span class="project__tag">#Responsive</span>
+   </div>
+
+   <h2 class="card__title">Landing Page</h2>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+
+   <div class="buttons">
+       <a href="#" class="button button--primary">Demo</a>
+       <a href="#" class="button button--ghost">Code</a>
+  </div>
+
+</div>
+
+
+   </article>
+
+    <article class="card card--project">
+      
+  <div class="card__image-container">
+      <img class="card__image" src="/images/img-9.jpg" alt="Landing Page">
+  </div>
+<div class="project">
+
+   <div class="project__tags">
+       <span class="project__tag">#HTML</span>
+       <span class="project__tag">#CSS</span>
+       <span class="project__tag">#Javascript</span>
+       <span class="project__tag">#Responsive</span>
+   </div>
+
+   <h2 class="card__title">Landing Page</h2>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+
+   <div class="buttons">
+       <a href="#" class="button button--primary">Demo</a>
+       <a href="#" class="button button--ghost">Code</a>
+  </div>
+
+</div>
+
+
+   </article>
+
+       <article class="card card--project">
+      
+  <div class="card__image-container">
+      <img class="card__image" src="/images/img10.jpg" alt="Landing Page">
+  </div>
+<div class="project">
+
+   <div class="project__tags">
+       <span class="project__tag">#HTML</span>
+       <span class="project__tag">#CSS</span>
+       <span class="project__tag">#Javascript</span>
+       <span class="project__tag">#Responsive</span>
+   </div>
+
+   <h2 class="card__title">Landing Page</h2>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+
+   <div class="buttons">
+       <a href="#" class="button button--primary">Demo</a>
+       <a href="#" class="button button--ghost">Code</a>
+  </div>
+
+</div>
+
+
+   </article>
+
+    <article class="card card--project">
+      
+  <div class="card__image-container">
+      <img class="card__image" src="/images/img-11.jpg" alt="Landing Page">
+  </div>
+<div class="project">
+
+   <div class="project__tags">
+       <span class="project__tag">#HTML</span>
+       <span class="project__tag">#NodeJs</span>
+       <span class="project__tag">#Javascript</span>
+       <span class="project__tag">#Responsive</span>
+   </div>
+
+   <h2 class="card__title">Landing Page</h2>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+
+   <div class="buttons">
+       <a href="#" class="button button--primary">Demo</a>
+       <a href="#" class="button button--ghost">Code</a>
+  </div>
+
+</div>
+
+
+   </article>
+
+      <article class="card card--project">
+      
+  <div class="card__image-container">
+      <img class="card__image" src="/images/img-12.jpg" alt="Landing Page">
+  </div>
+<div class="project">
+
+   <div class="project__tags">
+       <span class="project__tag">#HTML</span>
+       <span class="project__tag">#NodeJs</span>
+       <span class="project__tag">#Javascript</span>
+       <span class="project__tag">#Responsive</span>
+   </div>
+
+   <h2 class="card__title">Landing Page</h2>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+
+   <div class="buttons">
+       <a href="#" class="button button--primary">Demo</a>
+       <a href="#" class="button button--ghost">Code</a>
+  </div>
+
+</div>
+
+
+   </article>
+
+      <article class="card card--project">
+      
+  <div class="card__image-container">
+      <img class="card__image" src="/images/img-13.jpg" alt="Landing Page">
+  </div>
+<div class="project">
+
+   <div class="project__tags">
+       <span class="project__tag">#HTML</span>
+       <span class="project__tag">#NodeJs</span>
+       <span class="project__tag">#Javascript</span>
+       <span class="project__tag">#Responsive</span>
+   </div>
+
+   <h2 class="card__title">Landing Page</h2>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+   <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque voluptatem libero sunt quia, perferendis aperiam autem repellendus quasi veniam!</p>
+
+   <div class="buttons">
+       <a href="#" class="button button--primary">Demo</a>
+       <a href="#" class="button button--ghost">Code</a>
+  </div>
+
+</div>
+
+
+   </article>
+
+
+ </section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="social">
+      <a href="https://www.facebook.com/alvenisj" class="icon-facebook">
+          <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/alvenisj" class="icon-twitter">
+          <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/alvenisj" class="icon-instagram">
+          <i class="fa-brands fa-instagram-square"></i>
+      </a>
+      <a href="#" class="icon-googleplus">
+          <i class="fa-brands fa-google-plus-g"></i>
+      </a>
+      <a href="https://wa.me/573232914082?text=¡HOLA!%20necesito%20información" class="icon-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+      </a>
+
+     
+  </div>
+  <p class="copy">Alvenis Becerra- 2023 - <a class="footer-copy" href="#">Copyright &copy; all right reserved</a></p>
+</footer>
+
+
+<section class="modal">
+  
+  <div class="modal__container">
+     <a href="#" class="modal__close">
+        <i class="fa-regular fa-circle-x">X</i>
+    </a>
+    <img src="/images/modal.svg" class="modal__img">
+    <h2 class="modal__title">¡Welcome to my portfolio of services!</h2>
+    <p class="modal__paragraph">Professional Full Stack Web Developer with more than 7 years of working experience in a highly competitive environment. I'll do bug fixing on your website or if you need to add more features to your websites. I'll put all my best efforts and creativity to ensure 100% Satisfaction, Fast_Delivery, and Quality_Services.</p>
+    <a href="https://wa.me/573232914082?text=¡HOLA!%20necesito%20información" class="contacto">
+    <i class="fa-brands fa-whatsapp"></i>  Whatsapp</a>
+    
+    </a>
+  </div>
+</section>
+
+
+
+
+<script src="https://kit.fontawesome.com/62e24d8987.js" crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
